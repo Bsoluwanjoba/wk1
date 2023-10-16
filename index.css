@@ -1,0 +1,67 @@
+main {
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    color: #fff;
+    background-color: gray;
+
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+ul{
+    background-image: repeating-linear-gradient(
+        to left,
+         #C47676 30%, 
+        
+         #5E4B4B 50%);
+    }
+
+ol {
+    background-image: radial-gradient(circle,
+    #5E4B4B 10%,
+    gray 10%,
+    );
+    border: 1px solid gray;
+}
+
+p {
+    height: 100px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    overflow: auto;
+    }
+
+dd {
+    background-image: conic-gradient(cyan 20%,
+     pink 20%, 
+     pink 30%, 
+     blue 30%, 
+     blue 40%,
+    skyblue 40%,
+     skyblue 50%, 
+     khaki 50%, 
+     khaki 65%, 
+      red 65%,
+     red 80%, 
+     violet 80%);
+        color: transparent;
+   -webkit-background-clip: text;
+}
